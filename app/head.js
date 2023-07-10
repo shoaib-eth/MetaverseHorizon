@@ -1,9 +1,21 @@
-const Head = () => (
-  <>
-    <title>Metaverse Horizon</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="/favicon.ico" />
-  </>
-);
+// const Head = () => (
+//   <>
+//     <title>Metaverse Horizon</title>
+//     <meta name="viewport" content="width=device-width, initial-scale=1" />
+//     <link rel="icon" href="/favicon.ico" />
+//   </>
+// );
+
+// export default Head;
+const Head = () => {
+  return (
+    <>
+      <title>Metaverse Horizon</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="icon" href="/favicon.ico" />
+    </>
+  );
+};
 
 export default Head;
+                                           
