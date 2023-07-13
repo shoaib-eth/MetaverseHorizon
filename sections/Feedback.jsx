@@ -1,7 +1,4 @@
-"use client";
-
 import { motion } from "framer-motion";
-
 import styles from "../styles";
 import { fadeIn, staggerContainer, zoomIn } from "../utils/motion";
 
@@ -10,8 +7,8 @@ const Feedback = () => (
     <motion.div
       variants={staggerContainer}
       initial="hidden"
-      whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      animate="show" // Changed whileInView to animate
+      viewport={{ once: false, threshold: 0.25 }} // Changed amount to threshold
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-6`}
     >
       <motion.div
@@ -61,3 +58,4 @@ const Feedback = () => (
 );
 
 export default Feedback;
+
