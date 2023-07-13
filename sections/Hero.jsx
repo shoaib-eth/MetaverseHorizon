@@ -1,7 +1,4 @@
-'use client';
-
 import { motion } from 'framer-motion';
-
 import styles from '../styles';
 import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 
@@ -10,8 +7,8 @@ const Hero = () => (
     <motion.div
       variants={staggerContainer}
       initial="hidden"
-      whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      animate="show" // Changed whileInView to animate
+      exit="hidden" // Added exit animation
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <div className="flex justify-center items-center flex-col relative z-10">
@@ -23,7 +20,7 @@ const Hero = () => (
           className="flex flex-row justify-center items-center"
         >
           <h1 className={styles.heroHeading}>HORI</h1>
-          <div className={styles.heroText} />
+          <div className={styles.heroText}></div> {/* Added closing tag */}
           <h1 className={styles.heroHeading}>ZON</h1>
         </motion.div>
       </div>
@@ -55,3 +52,4 @@ const Hero = () => (
 );
 
 export default Hero;
+
