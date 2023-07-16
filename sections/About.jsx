@@ -1,8 +1,5 @@
-"use client";
-
 import { motion } from "framer-motion";
 import { TypingText } from "../components";
-
 import styles from "../styles";
 import { fadeIn, staggerContainer } from "../utils/motion";
 
@@ -12,8 +9,8 @@ const About = () => (
     <motion.div
       variants={staggerContainer}
       initial="hidden"
-      whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      animate="show"  // Changed from "whileInView" to "animate"
+      transition={{ once: false, duration: 0.25 }}  // Changed from "viewport" to "transition"
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
       <TypingText title="| About Metaverse Horizon" textStyles="text-center" />

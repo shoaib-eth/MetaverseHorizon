@@ -1,5 +1,4 @@
-'use client';
-
+import React from 'react';
 import { motion } from 'framer-motion';
 
 import styles from '../styles';
@@ -12,8 +11,8 @@ const GetStarted = () => (
     <motion.div
       variants={staggerContainer}
       initial="hidden"
-      whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      animate="show"
+      exit="hidden"
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
     >
       <motion.div
@@ -36,7 +35,7 @@ const GetStarted = () => (
           {startingFeatures.map((feature, index) => (
             <StartSteps
               key={feature}
-              number={`${index < 10 ? '0' : ''} ${index + 1}`}
+              number={`${index < 10 ? '0' : ''}${index + 1}`}
               text={feature}
             />
           ))}

@@ -1,5 +1,3 @@
-'use client';
-
 import { motion } from 'framer-motion';
 
 import styles from '../styles';
@@ -24,7 +22,11 @@ const WhatsNew = () => (
         <TitleText title={<>What's new about Metaverse?</>} />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
           {newFeatures.map((feature) => (
-            <NewFeatures key={feature.title} {...feature} />
+            <NewFeatures
+              key={feature.title}
+              {...feature}
+              variants={fadeIn('left', 'tween', 0.2, 1)}
+            />
           ))}
         </div>
       </motion.div>
@@ -44,3 +46,4 @@ const WhatsNew = () => (
 );
 
 export default WhatsNew;
+

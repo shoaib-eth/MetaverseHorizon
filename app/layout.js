@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import '../styles/globals.css';
 
 // const RootLayout = ({ children }) => (
@@ -11,6 +12,9 @@
 // );
 
 // export default RootLayout;
+=======
+import React from 'react';
+>>>>>>> 223ee6458d53a381c554a8a5c58ee8ae56eef45f
 import '../styles/globals.css';
 
 const RootLayout = ({ children }) => {
