@@ -19,7 +19,7 @@ module.exports = {
   ],
   rules: {
     'react/no-unescaped-entities': 0,
-    'react/no-danger': 0, // corrected rule name
+    'eslintreact/no-danger': 0,
     'react/jsx-max-props-per-line': 0,
     'react/jsx-first-prop-new-line': 0,
     'no-console': 0,
@@ -45,9 +45,7 @@ module.exports = {
     ],
     'max-len': [
       2,
-      {
-        code: 1050, // corrected option name
-      },
+      1050,
     ],
     'no-multiple-empty-lines': [
       'error',
