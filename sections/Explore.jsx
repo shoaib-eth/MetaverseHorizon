@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+'use client';
+
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 
 import styles from '../styles';
@@ -14,8 +16,8 @@ const Explore = () => {
       <motion.div
         variants={staggerContainer}
         initial="hidden"
-        animate="show" // Changed `whileInView` to `animate`
-        transition={{ once: false, duration: 0.25 }} // Changed `viewport` to `transition`
+        whileInView="show"
+        viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
         <TypingText title="| The World" textStyles="text-center" />
