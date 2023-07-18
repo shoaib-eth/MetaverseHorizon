@@ -7,7 +7,7 @@ import World from './World';
 import Insights from './Insights';
 import Feedback from './Feedback';
 
-export default {
+export {
   Hero,
   About,
   Explore,
