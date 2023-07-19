@@ -27,9 +27,9 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  "Find a world that suits you and you want to enter",
+  "Unlock limitless possibilities in the Metaverse Horizon",
+  "Unleash the magic, experience the Metaverse Horizon through easy interaction",
 ];
 
 export const newFeatures = [
@@ -49,22 +49,22 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    imgUrl: "/planet-06.png",
+    title: "A Paradigm Shift in Digital Realms",
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+      "Embark on an extraordinary journey into a connected universe, where virtual and physical merge, expanding horizons of imagination and connectivity.",
   },
   {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    imgUrl: "/planet-07.png",
+    title: "Where Reality Meets Infinite Possibilities",
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+      "Step into a boundless virtual realm, where you can shape your destiny, connect with like-minded explorers, and redefine the limits of whats possible.",
   },
   {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
+    imgUrl: "/planet-08.png",
+    title: "Unlocking a New Era of Experiences",
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+      "Uncover the secrets of the Metaverse, a gateway to immersive adventures, transformative interactions, and limitless innovation, forever changing how we live and connect.",
   },
 ];
 
