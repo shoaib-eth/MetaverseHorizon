@@ -29,7 +29,7 @@ export const exploreWorlds = [
 export const startingFeatures = [
   "Find a world that suits you and you want to enter",
   "Unlock limitless possibilities in the Metaverse Horizon",
-  "Unleash the magic, experience the Metaverse Horizon through easy interaction",
+  "Experience the Metaverse Horizon through easy interaction",
 ];
 
 export const newFeatures = [
