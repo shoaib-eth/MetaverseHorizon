@@ -27,9 +27,7 @@ const About = () => (
         </span>{" "}
         where reality expands and imagination knows no limits. Experience a
         digital universe of infinite possibilities, connecting with others,
-        embarking on thrilling adventures, and shaping your own destiny.
-        Discover breathtaking landscapes, engage in exhilarating quests, and
-        forge meaningful connections in this vibrant social hub. Immerse
+        embarking on thrilling adventures, and shaping your own destiny. Immerse
         yourself in stunning visuals, lifelike avatars, and immersive
         experiences. Welcome to the Metaverse Horizon, where the future unfolds
         before your eyes. Let's{" "}
