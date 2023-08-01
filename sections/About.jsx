@@ -28,8 +28,7 @@ const About = () => (
         where reality expands and imagination knows no limits. Experience a
         digital universe of infinite possibilities, connecting with others,
         embarking on thrilling adventures, and shaping your own destiny. Immerse
-        yourself in stunning visuals, lifelike avatars, and immersive
-        experiences. Welcome to the Metaverse Horizon, where the future unfolds
+        yourself in stunning visuals and immersive experiences. Welcome to the Metaverse Horizon, where the future unfolds
         before your eyes. Let's{" "}
         <span className="font-extrabold text-white">explore</span> the Metaverse
         Horizon by scrolling down
