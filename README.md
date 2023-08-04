@@ -4,7 +4,7 @@ Metaverse Horizon is an innovative web development project that aims to create a
 
 ## Getting Started
 
-Provide step-by-step instructions to help others set up and run your project locally. Include any prerequisites, installation steps, and configuration that might be needed.
+step-by-step instructions help to set up and run project locally. Include any prerequisites, installation steps, and configuration that might be needed.
 
 ```bash
 # Clone the repository
