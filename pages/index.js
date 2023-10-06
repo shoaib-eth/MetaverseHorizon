@@ -26,3 +26,5 @@ const Home = () => (
 );
 
 export default Home;
+
+// Social Icons Removed
