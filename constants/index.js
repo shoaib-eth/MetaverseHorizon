@@ -67,22 +67,3 @@ export const insights = [
       "Uncover the secrets of the Metaverse, a gateway to immersive adventures, transformative interactions, and limitless innovation, forever changing how we live and connect.",
   },
 ];
-
-// export const socials = [
-//   {
-//     name: 'twitter',
-//     url: '/twitter.svg',
-//   },
-//   {
-//     name: 'linkedin',
-//     url: '/linkedin.svg',
-//   },
-//   {
-//     name: 'instagram',
-//     url: '/instagram.svg',
-//   },
-//   {
-//     name: 'facebook',
-//     url: '/facebook.svg',
-//   },
-// ];
