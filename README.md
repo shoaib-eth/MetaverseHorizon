@@ -8,16 +8,22 @@ Metaverse Horizon is an innovative web development project that aims to create a
 
 step-by-step instructions help to set up and run project locally. Include any prerequisites, installation steps, and configuration that might be needed.
 
-# Clone the repository
+## Clone the repository
 ```bash
 git clone https://github.com/ShoaibDev69/MetaverseHorizon.git
 ```
 
-# Move into the project directory
+## Move into the project directory
+```bash
 cd MetaverseHorizon
+```
 
-# Install dependencies
+## Install dependencies
+```bash
 npm install
+```
 
-# Start the application
+## Start the application
+```bash
 npm start
+```
