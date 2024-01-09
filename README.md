@@ -31,3 +31,9 @@ npm install
 ```bash
 npm start
 ```
+
+
+## Contributing
+
+Contributions are always welcome! Please create a Pull Request to add more features or fix bugs. Feel free to open an issue for any feedback. 
+
